@@ -5,21 +5,21 @@
   <img src="./Hacktoberfest_Logo.jpeg">
 </p>
 
-## This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face:
+## This repository aims to help beginners create their first successful pull request and start contributing to the Open Source community. :partying_face:
 
-:star: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
+:star: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before diving into the real thing!
 
-### This repository is open to all members of the GitHub community. Any member can contribute to this project!
+### This repository is open for all members of the GitHub community. Any member can contribute to this project!
 # Guidelines
 
     1. Contribute an interesting program using any programming language.
-    2. The Program should be executable, with 0 errors and proper documentation.
-    3. Create a directory for the programming language you are using. (Note: Do not create a new directory if already exists.)
-    5. Writing the author's name and the date modified is a must (Write it as a multiline comment in your code).
+    2. The program should be executable with no errors along with proper documentation for the same.
+    3. Create a directory for the programming language you are using. (Note: Do not create a new directory if it already exists)
+    5. Writing the author's name and date on which code was modified is a must (prefer multiline comments in your code).
     6. Filename should be meaningful.
-    7. Don't spam it will be rejected immediately.
+    7. Don't spam otherwise it will be rejected immediately.
     8. Try to bring in as many creative programs.
-    9. Just basic programs my not be accepted.
+    9. Basic programs may not be accepted.
 
 ---
 
