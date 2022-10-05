@@ -21,6 +21,8 @@
     8. Try to bring in as many creative programs.
     9. Basic programs may not be accepted.
 
+**Remember this is not a DSA Repository....**
+
 ---
 
 # Steps For Contribution
