@@ -1,24 +1,36 @@
 """
 This is a Soduku Solver program that uses backtracking algorithm.
 
-For new soduku, Just assign it as a nested array to problem variable 
+For new soduku, Give input in terminal like ->
+
+Use 0 for empty spaces
+
+530070000
+600195000
+.
+.
+.
+.
+.
+.
+.
+
 
 Author : Yash Indane
 
 """
 
-
 import numpy as np
 
-problem = [[6 , 7 , 0 , 0 , 0 , 0 , 0 , 0 , 2],
-           [0 , 0 , 1 , 7 , 9 , 0 , 0 , 3 , 0],
-           [0 , 5 , 0 , 0 , 6 , 2 , 0 , 0 , 0],
-           [0 , 0 , 0 , 0 , 0 , 0 , 0 , 2 , 5],
-           [0 , 0 , 0 , 3 , 0 , 8 , 0 , 0 , 0],
-           [2 , 4 , 0 , 0 , 0 , 0 , 0 , 0 , 0],
-           [0 , 0 , 0 , 1 , 3 , 0 , 0 , 5 , 0],
-           [0 , 8 , 0 , 0 , 5 , 7 , 1 , 0 , 0],
-           [5 , 0 , 0 , 0 , 0 , 0 , 0 , 9 , 6]]
+problem = []
+
+#User input
+for x in range(9):
+    i = input()
+    l = [int(v) for v in i]
+    problem.append(l)
+
+#print(problem)
 
 np_problem = np.array(problem)
 
@@ -91,5 +103,4 @@ for r in range(9) :
 
         if not fix_flag : backtrack([r , c])
 
-           
 print(np_problem)
